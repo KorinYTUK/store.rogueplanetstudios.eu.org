@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Windows App Store</title>
+  <title>App Store</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to the Windows App Store</h1>
+  <h1>App Store</h1>
   
   <div id="appList">
     <h2>Apps:</h2>
@@ -17,7 +17,11 @@
   <h2>Add an App:</h2>
   <form id="addAppForm">
     <input type="text" id="appNameInput" placeholder="App Name" required>
-    <input type="text" id="appURLInput" placeholder="App URL" required>
+    <input type="text" id="appDescInput" placeholder="Description" required>
+    <input type="text" id="appAuthorInput" placeholder="Author" required>
+    <input type="text" id="appVersionInput" placeholder="Version" required>
+    <input type="file" id="appImageInput" accept="image/*" required>
+    <input type="file" id="appInstallerInput" accept=".exe" required>
     <button type="submit">Add App</button>
   </form>
   
